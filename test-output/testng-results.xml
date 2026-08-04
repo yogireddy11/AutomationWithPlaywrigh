@@ -1,75 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-03T16:27:44 IST" name="End-to-end testing" finished-at="2026-08-03T16:28:00 IST" duration-ms="16607">
+  <suite started-at="2026-08-04T12:31:22 IST" name="End-to-end testing" finished-at="2026-08-04T12:31:44 IST" duration-ms="22148">
     <groups>
     </groups>
-    <test started-at="2026-08-03T16:27:44 IST" name="chromeTest" finished-at="2026-08-03T16:27:57 IST" duration-ms="13255">
+    <test started-at="2026-08-04T12:31:22 IST" name="FirefoxTest" finished-at="2026-08-04T12:31:38 IST" duration-ms="16689">
       <class name="tests.AutomationTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@4082ba93]" started-at="2026-08-03T16:27:44 IST" name="setup" finished-at="2026-08-03T16:27:54 IST" duration-ms="10103" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@4082ba93]" started-at="2026-08-03T16:27:54 IST" name="gotoAPK" finished-at="2026-08-03T16:27:56 IST" duration-ms="2091" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAPK -->
-        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@4082ba93]" started-at="2026-08-03T16:27:56 IST" name="verifySignup" finished-at="2026-08-03T16:27:56 IST" duration-ms="459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignup -->
-        <test-method signature="login()[pri:3, instance:tests.AutomationTests@4082ba93]" started-at="2026-08-03T16:27:56 IST" name="login" finished-at="2026-08-03T16:27:57 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@4082ba93]" started-at="2026-08-03T16:27:57 IST" name="exit" finished-at="2026-08-03T16:27:57 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exit -->
-      </class> <!-- tests.AutomationTests -->
-    </test> <!-- chromeTest -->
-    <test started-at="2026-08-03T16:27:44 IST" name="EdgeTest" finished-at="2026-08-03T16:27:57 IST" duration-ms="13683">
-      <class name="tests.AutomationTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@3932c79a]" started-at="2026-08-03T16:27:44 IST" name="setup" finished-at="2026-08-03T16:27:54 IST" duration-ms="10167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@3932c79a]" started-at="2026-08-03T16:27:54 IST" name="gotoAPK" finished-at="2026-08-03T16:27:57 IST" duration-ms="2762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAPK -->
-        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@3932c79a]" started-at="2026-08-03T16:27:57 IST" name="verifySignup" finished-at="2026-08-03T16:27:57 IST" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignup -->
-        <test-method signature="login()[pri:3, instance:tests.AutomationTests@3932c79a]" started-at="2026-08-03T16:27:57 IST" name="login" finished-at="2026-08-03T16:27:57 IST" duration-ms="143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@3932c79a]" started-at="2026-08-03T16:27:57 IST" name="exit" finished-at="2026-08-03T16:27:57 IST" duration-ms="355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exit -->
-      </class> <!-- tests.AutomationTests -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2026-08-03T16:27:44 IST" name="FirefoxTest" finished-at="2026-08-03T16:28:00 IST" duration-ms="16607">
-      <class name="tests.AutomationTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@6933b6c6]" started-at="2026-08-03T16:27:44 IST" name="setup" finished-at="2026-08-03T16:27:56 IST" duration-ms="12283" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:22 IST" name="setup" finished-at="2026-08-04T12:31:35 IST" duration-ms="12992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,23 +18,109 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@6933b6c6]" started-at="2026-08-03T16:27:56 IST" name="gotoAPK" finished-at="2026-08-03T16:27:59 IST" duration-ms="3140" status="PASS">
+        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:35 IST" name="gotoAPK" finished-at="2026-08-04T12:31:35 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoAPK -->
-        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@6933b6c6]" started-at="2026-08-03T16:27:59 IST" name="verifySignup" finished-at="2026-08-03T16:27:59 IST" duration-ms="275" status="PASS">
+        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:35 IST" name="verifySignup" finished-at="2026-08-04T12:31:35 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignup -->
-        <test-method signature="login()[pri:3, instance:tests.AutomationTests@6933b6c6]" started-at="2026-08-03T16:27:59 IST" name="login" finished-at="2026-08-03T16:28:00 IST" duration-ms="174" status="PASS">
+        <test-method signature="login()[pri:3, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:35 IST" name="login" finished-at="2026-08-04T12:31:35 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@6933b6c6]" started-at="2026-08-03T16:28:00 IST" name="exit" finished-at="2026-08-03T16:28:00 IST" duration-ms="721" status="PASS">
+        <test-method signature="checkoutCart()[pri:4, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:35 IST" name="checkoutCart" finished-at="2026-08-04T12:31:38 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutCart -->
+        <test-method signature="verifySearchBar()[pri:5, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:38 IST" name="verifySearchBar" finished-at="2026-08-04T12:31:38 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBar -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@4df5bcb4]" started-at="2026-08-04T12:31:38 IST" name="exit" finished-at="2026-08-04T12:31:38 IST" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- tests.AutomationTests -->
     </test> <!-- FirefoxTest -->
+    <test started-at="2026-08-04T12:31:22 IST" name="EdgeTest" finished-at="2026-08-04T12:31:41 IST" duration-ms="19331">
+      <class name="tests.AutomationTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:22 IST" name="setup" finished-at="2026-08-04T12:31:33 IST" duration-ms="11605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:33 IST" name="gotoAPK" finished-at="2026-08-04T12:31:34 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoAPK -->
+        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:34 IST" name="verifySignup" finished-at="2026-08-04T12:31:38 IST" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignup -->
+        <test-method signature="login()[pri:3, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:38 IST" name="login" finished-at="2026-08-04T12:31:38 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="checkoutCart()[pri:4, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:38 IST" name="checkoutCart" finished-at="2026-08-04T12:31:40 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutCart -->
+        <test-method signature="verifySearchBar()[pri:5, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:40 IST" name="verifySearchBar" finished-at="2026-08-04T12:31:40 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBar -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@63798ca7]" started-at="2026-08-04T12:31:40 IST" name="exit" finished-at="2026-08-04T12:31:41 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- tests.AutomationTests -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-08-04T12:31:22 IST" name="chromeTest" finished-at="2026-08-04T12:31:44 IST" duration-ms="22148">
+      <class name="tests.AutomationTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:22 IST" name="setup" finished-at="2026-08-04T12:31:34 IST" duration-ms="12432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gotoAPK()[pri:1, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:34 IST" name="gotoAPK" finished-at="2026-08-04T12:31:34 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoAPK -->
+        <test-method signature="verifySignup()[pri:2, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:34 IST" name="verifySignup" finished-at="2026-08-04T12:31:41 IST" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignup -->
+        <test-method signature="login()[pri:3, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:41 IST" name="login" finished-at="2026-08-04T12:31:41 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="checkoutCart()[pri:4, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:41 IST" name="checkoutCart" finished-at="2026-08-04T12:31:43 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutCart -->
+        <test-method signature="verifySearchBar()[pri:5, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:43 IST" name="verifySearchBar" finished-at="2026-08-04T12:31:43 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBar -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.AutomationTests@2a62b5bc]" started-at="2026-08-04T12:31:43 IST" name="exit" finished-at="2026-08-04T12:31:44 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- tests.AutomationTests -->
+    </test> <!-- chromeTest -->
   </suite> <!-- End-to-end testing -->
 </testng-results>

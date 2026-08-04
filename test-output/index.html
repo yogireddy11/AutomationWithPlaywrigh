@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">15 methods,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,21 @@
                     <div class="method-list-content passed suite-End_to_end_testing">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="checkoutCart">checkoutCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="checkoutCart">checkoutCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="checkoutCart">checkoutCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="gotoAPK">gotoAPK</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -129,6 +144,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="verifySearchBar">verifySearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="verifySearchBar">verifySearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-End_to_end_testing" title="tests.AutomationTests" class="method navigator-link" hash-for-method="verifySearchBar">verifySearchBar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,6 +196,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="checkoutCart">
+                  </a> <!-- checkoutCart -->
+                  <span class="method-name">checkoutCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutCart">
+                  </a> <!-- checkoutCart -->
+                  <span class="method-name">checkoutCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutCart">
+                  </a> <!-- checkoutCart -->
+                  <span class="method-name">checkoutCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="gotoAPK">
                   </a> <!-- gotoAPK -->
                   <span class="method-name">gotoAPK</span>
@@ -204,6 +255,27 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBar">
+                  </a> <!-- verifySearchBar -->
+                  <span class="method-name">verifySearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBar">
+                  </a> <!-- verifySearchBar -->
+                  <span class="method-name">verifySearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBar">
+                  </a> <!-- verifySearchBar -->
+                  <span class="method-name">verifySearchBar</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -239,6 +311,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;End-to-end testing&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;chromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -300,48 +375,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'gotoAPK')
+data.setCell(0, 1, 'verifySignup')
 data.setCell(0, 2, 'tests.AutomationTests')
-data.setCell(0, 3, 3140);
+data.setCell(0, 3, 6420);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'gotoAPK')
+data.setCell(1, 1, 'verifySignup')
 data.setCell(1, 2, 'tests.AutomationTests')
-data.setCell(1, 3, 2762);
+data.setCell(1, 3, 4310);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'gotoAPK')
+data.setCell(2, 1, 'checkoutCart')
 data.setCell(2, 2, 'tests.AutomationTests')
-data.setCell(2, 3, 2091);
+data.setCell(2, 3, 2162);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySignup')
+data.setCell(3, 1, 'checkoutCart')
 data.setCell(3, 2, 'tests.AutomationTests')
-data.setCell(3, 3, 459);
+data.setCell(3, 3, 2124);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySignup')
+data.setCell(4, 1, 'checkoutCart')
 data.setCell(4, 2, 'tests.AutomationTests')
-data.setCell(4, 3, 275);
+data.setCell(4, 3, 2105);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifySignup')
 data.setCell(5, 2, 'tests.AutomationTests')
-data.setCell(5, 3, 221);
+data.setCell(5, 3, 498);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
+data.setCell(6, 1, 'gotoAPK')
 data.setCell(6, 2, 'tests.AutomationTests')
-data.setCell(6, 3, 174);
+data.setCell(6, 3, 222);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'login')
 data.setCell(7, 2, 'tests.AutomationTests')
-data.setCell(7, 3, 143);
+data.setCell(7, 3, 202);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'login')
 data.setCell(8, 2, 'tests.AutomationTests')
-data.setCell(8, 3, 121);
+data.setCell(8, 3, 182);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'tests.AutomationTests')
+data.setCell(9, 3, 176);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySearchBar')
+data.setCell(10, 2, 'tests.AutomationTests')
+data.setCell(10, 3, 78);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchBar')
+data.setCell(11, 2, 'tests.AutomationTests')
+data.setCell(11, 3, 73);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySearchBar')
+data.setCell(12, 2, 'tests.AutomationTests')
+data.setCell(12, 3, 73);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'gotoAPK')
+data.setCell(13, 2, 'tests.AutomationTests')
+data.setCell(13, 3, 60);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'gotoAPK')
+data.setCell(14, 2, 'tests.AutomationTests')
+data.setCell(14, 3, 48);
 window.suiteTableData['End_to_end_testing']= { tableData: data, tableDiv: 'times-div-End_to_end_testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-End_to_end_testing">
               </div> <!-- times-div-End_to_end_testing -->
             </div> <!-- times-div -->
@@ -382,51 +481,75 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">gotoAPK</span>
-                <span class="method-start">10183 ms</span>
+                <span class="method-start">11642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySignup</span>
+                <span class="method-start">11954 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">gotoAPK</span>
-                <span class="method-start">10183 ms</span>
+                <span class="method-start">12434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySignup</span>
+                <span class="method-start">12498 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">gotoAPK</span>
-                <span class="method-start">12284 ms</span>
+                <span class="method-start">12993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySignup</span>
-                <span class="method-start">12344 ms</span>
+                <span class="method-start">13045 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">12808 ms</span>
+                <span class="method-start">13547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutCart</span>
+                <span class="method-start">13732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBar</span>
+                <span class="method-start">15896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">exit</span>
-                <span class="method-start">12933 ms</span>
+                <span class="method-start">15977 ms</span>
               </div> <!-- configuration-test after -->
               <div class="test-method">
-                <span class="method-name">verifySignup</span>
-                <span class="method-start">12951 ms</span>
+                <span class="method-name">login</span>
+                <span class="method-start">16268 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">13176 ms</span>
+                <span class="method-name">checkoutCart</span>
+                <span class="method-start">16446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBar</span>
+                <span class="method-start">18553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">exit</span>
-                <span class="method-start">13322 ms</span>
+                <span class="method-start">18628 ms</span>
               </div> <!-- configuration-test after -->
               <div class="test-method">
-                <span class="method-name">verifySignup</span>
-                <span class="method-start">15426 ms</span>
+                <span class="method-name">login</span>
+                <span class="method-start">18921 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">15703 ms</span>
+                <span class="method-name">checkoutCart</span>
+                <span class="method-start">19127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBar</span>
+                <span class="method-start">21254 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">exit</span>
-                <span class="method-start">15880 ms</span>
+                <span class="method-start">21329 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

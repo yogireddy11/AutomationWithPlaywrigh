@@ -17,13 +17,8 @@ public class HomePage {
 
     }
 
-    public void navigateToAPK(){
-       String url = ConfigReader.getProperties("baseURL");
-       page.navigate(url);
-
-        System.out.println("Navigate URL | "+page.url());
-    }
     public void verifyNavigation(){
+        System.out.println("Navigate URL | "+page.url());
          assertThat(page).hasURL(ConfigReader.getProperties(("baseURL")));
     }
 

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="End-to-end testing" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
     <test name="chromeTest">
+
         <parameter name="browser" value="chrome"/>
         <classes>
+
             <class name="tests.AutomationTests"/>
         </classes>
     </test>
